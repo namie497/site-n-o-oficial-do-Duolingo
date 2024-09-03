@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(107, 204, 98);
+    display: flex; /*alinhar os elementos ao lado*/
+    justify-content:space-between; /*espaçamento entre os dois*/
+}
+
+header img {
+    width: 14%;
+    height: 14%;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+h1{
+    padding-top: 2%;
+    color: rgb(21, 255, 0);
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;/*remover a formatação*/
+    padding: 10px;
+    color: rgb(56, 206, 56);
+    text-transform: uppercase; /*maiúculo*/
+    font-weight: bold;/*negrito*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav a:hover{
+    color: rgb(63, 105, 65);
+}
+
+header nav section a{
+    margin: 5px;
+    background-color: rgb(228, 250, 205);
+}
+
+.video{
+    padding: 1%;
+    text-align: center;
+}
+
+.sobre{
+    margin: 2%;
+    background-color: rgb(195, 252, 190);
+    padding: 30px 10px 30px 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+main h2{
+    margin: 10px;
+    text-align: center;
+}
+
+form {
+    background-color: rgb(195, 252, 190);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 2%;
+    border-radius: 5%;
+}
+
+.contato-principal{
+    display: flex;
+    justify-content:space-between;
+    padding: 0% 10% 0% 10%;
+}
+
+.tudo{
+    background-color: rgb(195, 252, 190);
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5%;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.aulas{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}   
+
+.aulas section{
+    width: 20%;
+    background-color: rgb(195, 252, 190);
+    padding: 2%;
+    text-align: center;
+    margin: 1%;
+    border-radius: 5%;
+}
+
+.aulas img{
+    padding: 5px;
+}
+
+li{
+    text-align: left;
+}
+
+footer {
+    margin: 2%;
+    background-color: rgb(195, 252, 190);
+    text-align: center;
+    border-radius: 5px;
+}
